@@ -59,7 +59,7 @@ class App extends Component {
       })
       this.setState({ loading: false})
     } else {
-      window.alert('DVideo contract not deployed to detected network.')
+      window.alert('Please Connect to the BSC network..')
     }
   }
 
